@@ -7,7 +7,7 @@
     "test": "jest --verbose --coverage",
     "lint": "eslint '**/*.js'",
     "start": "node index.js"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-02.git"
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-02#readme",
   "dependencies": {
-    "jest": "*"
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
   }
 }

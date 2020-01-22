@@ -1,6 +1,6 @@
 'use strict';
 
-const VehicleConstructor = require('./vehicle-constructor.js');
+const VehicleConstructor = require('./lib/vehicle-constructor.js');
 
 // Implement a car and motorcycle using a Constructor
 const mazda = new VehicleConstructor.Car('Mazda 3');
@@ -11,13 +11,13 @@ console.log(harley.name, harley.wheelie(), harley.stop());
 
 // Implement a car and motorcycle using a Class
 
-const vehicleClass = require('./vehicle-class');
+const vehicleClass = require('./lib/vehicle-class.js');
 
-const mercedes = new vehicleClass.Car('Mercedes-Benz');
-console.log(mercedes.name, mercedes.drive(), mercedes.stop());
+const mazda = new vehicleClass.Car('Mazda 3');
+console.log(mazda.name, mazda.drive(), mazda.stop());
 
-const cruisers = new VehicleConstructor.Motorcycle('Cruisers');
-console.log(cruisers.name, cruisers.wheelie(), cruisers.stop());
+const harley = new vehicleClass.Motorcycle('Harley');
+console.log(harley.name, harley.wheelie(), harley.stop());
 
 
 
