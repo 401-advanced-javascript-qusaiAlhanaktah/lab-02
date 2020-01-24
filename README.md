@@ -4,8 +4,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab01/pull/1)
-- [ci/cd](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-02/commit/7067b7283a8e411084bbfc03b92ee39da05736ed/checks?check_suite_id=417274474) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-02/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-02/commit/bb65118ca66fd1fec4c97172a7c4f7babd66a368/checks?check_suite_id=418814146) (GitHub Actions)
 
 ### Setup
 npm i jest eslint
