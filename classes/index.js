@@ -18,7 +18,3 @@ console.log(mazda.name, mazda.drive(), mazda.stop());
 
 const harley = new vehicleClass.Motorcycle('Harley');
 console.log(harley.name, harley.wheelie(), harley.stop());
-
-
-
-

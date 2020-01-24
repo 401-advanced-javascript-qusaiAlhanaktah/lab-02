@@ -17,10 +17,10 @@ class Vehicle {
         constructor(name, wheels){
             super(name,4)
         }
-        run(){
-            super.drive();
-            super.stop();
-        }
+        // run(){
+        //     super.drive();
+        //     super.stop();
+        // }
     }
     class Motorcycle extends Vehicle{
         constructor(name,wheels){
@@ -29,10 +29,10 @@ class Vehicle {
         wheelie(){
             return 'Wheee!';
         }
-        run(){
-            super.drive();
-            super.stop();
-        }
+        // run(){
+        //     super.drive();
+        //     super.stop();
+        // }
     }
 
 
